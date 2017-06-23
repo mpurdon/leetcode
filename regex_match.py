@@ -61,6 +61,8 @@ if __name__ == '__main__':
     solution = Solution()
 
     tests = [
+        ('..',     '..',     True),
+        ('aa',     '..',     True),
         ('aa',     'a',      False),
         ('aa',     'aa',     True),
         ('aaa',    'a*',     True),
